@@ -19,7 +19,7 @@ body{
     background-color: hsl(179, 100%, 13%);
 }
 
-.title{
+h2{
     color:  hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
@@ -63,8 +63,8 @@ a{
     }
 
     section{
-        height: 65%;
-        width: 65%;
+        height: 63%;
+        width: 59%;
         display: flex;
     }
 
@@ -75,31 +75,31 @@ a{
     }
 
     #sedans{
-        border-radius: 15px 0 0 15px;
+        border-radius: 10px 0 0 10px;
     }
 
     #luxury{
-        border-radius: 0 15px 15px 0;
+        border-radius: 0 10px 10px 0;
     }
 
     img{
         height: 3vw;
     }
 
-    .title{
+    h2{
         font-size: 2vw;
     }
 
     .description{
-        font-size: 1.1vw;
+        font-size: 1vw;
         line-height: 1.8;
     }
 
     .button{
         position: absolute;
         border-radius: 2vw;
-        height: 10%;
-        width: 55%;
+        height: 8%;
+        width: 50%;
         bottom: 10%;
     }
 
@@ -134,7 +134,7 @@ a{
         height: 10vw;
     }
 
-    .title{
+    h2{
         font-size: 7vw;
     }
 
