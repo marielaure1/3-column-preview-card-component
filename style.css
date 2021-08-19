@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+    /* border-radius: 15px 0 0 15px; */
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    /* border-radius: 0 15px 15px 0; */
+}
+
+.title{
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+
+.description{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.button{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sedans a{
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs a{
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury a{
+    color: hsl(179, 100%, 13%);
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Desktop */
+@media (min-width: 501px){
+    body{
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    section{
+        height: 65%;
+        width: 65%;
+        display: flex;
+    }
+
+    .block{
+        width: calc(1/3);
+        padding: 5%;
+        position: relative;
+    }
+
+    img{
+        height: 3vw;
+    }
+
+    .title{
+        font-size: 2vw;
+    }
+
+    .description{
+        font-size: 1.1vw;
+        line-height: 1.8;
+    }
+
+    .button{
+        position: absolute;
+        border-radius: 2vw;
+        height: 10%;
+        width: 55%;
+        bottom: 10%;
+    }
+
+    a{
+        font-size: 1.1vw;
+    }
+
+    .attribution{
+        position: absolute;
+        bottom: 10%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px){
+    body{
+        position: relative;
+    }
+    section{
+        height: 90%;
+        width: 90%;
+        margin: 20% 0 20% 0;
+    }
+
+    .block{
+        height: calc(1/3);
+        padding: 15%;
+        position: relative;
+    }
+
+    img{
+        height: 10vw;
+    }
+
+    .title{
+        font-size: 7vw;
+    }
+
+    .description{
+        font-size: 4vw;
+        line-height: 1.8;
+        margin-bottom: 30%;
+    }
+
+    .button{
+        position: absolute;
+        bottom: 10%;
+        border-radius: 7vw;
+        height: 10%;
+        width: 45%;
+    }
+
+    a{
+        font-size: 3.8vw;
+    }
+
+    .attribution{
+        position: absolute;
+        bottom: 2vh;
+    }
+}
+
